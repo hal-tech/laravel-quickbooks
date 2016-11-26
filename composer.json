@@ -1,0 +1,34 @@
+{
+  "name": "teampickr/laravel-quickbooks",
+  "keywords": [
+    "laravel",
+    "quickbooks",
+    "api",
+    "php"
+  ],
+  "description": "Laravel package for connecting to the Quickbooks API",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jonathan Martin",
+      "email": "jm@pickr.works"
+    },
+    {
+      "name": "Carl Cassar",
+      "email": "cc@pickr.works"
+    }
+  ],
+  "require": {
+    "teampickr/php-quickbooks": "dev-master@dev",
+    "illuminate/support": "^5.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "LaravelQuickbooks\\": "src/"
+    }
+  },
+  "require-dev": {
+    "orchestra/testbench": "~3.0",
+    "phpunit/phpunit": "^5.6"
+  }
+}
